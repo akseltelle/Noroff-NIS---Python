@@ -1,3 +1,4 @@
+# Author: Aksel Telle
 import os
 
 print("Welcome " + os.getlogin())
