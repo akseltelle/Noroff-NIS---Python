@@ -16,8 +16,6 @@ print('Hourly worker pay: ', hourly)
 print('Monhly worker pay: ', monthly)
 
 
-
-
 from calculatepay import hourly_pay as pay
 
 hourly = pay(50, 10)
