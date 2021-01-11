@@ -7,10 +7,13 @@
 import os                                                           # Import OS module to extract system information
 print("Welcome, " + os.getlogin() + "!")                            # Greet the user with a welcome message
 print("")
-print("(type \"ex\" for example sentence)")                         # Give the user an example message
+print("(Type \"ex\" for example sentence)")                         # Give the user an example message
+print("(Type \"e\" to exit program)")                               # Give the user an option to exit
 user_string = input("Please enter a sentence: ")                    # Ask user for a sentence
 if user_string == "ex":                                             # If user select example sentence
     conv_string = "    This is an EXAMPLE sentence.    "
+elif user_string == "e":                                            # If user want to exit
+    exit("Program exited")                                          # "e" selected, exit program
 else:                                                               # If the user type their own sentence
     conv_string = user_string
 print("\n")
