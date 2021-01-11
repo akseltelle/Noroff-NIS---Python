@@ -4,7 +4,8 @@
 # Github        : https://github.com/akseltelle
 # This project  : https://github.com/akseltelle/Noroff-NIS---Python
 # Website       : https://fawdaw.com/
-print("Welcome!")                                                   # Print welcome message
+import os                                                           # Import OS module to extract system information
+print("Welcome, " + os.getlogin() + "!")                            # Greet the user with a welcome message
 print("")
 print("(type \"ex\" for example sentence)")                         # Give the user an example message
 user_string = input("Please enter a sentence: ")                    # Ask user for a sentence
