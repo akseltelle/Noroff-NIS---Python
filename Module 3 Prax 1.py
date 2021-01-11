@@ -4,16 +4,18 @@
 # Github        : https://github.com/akseltelle
 # This project  : https://github.com/akseltelle/Noroff-NIS---Python
 # Website       : https://fawdaw.com/
-print("Welcome!")
-user_string = input("Please enter a sentence (type \"ex\" for example sentence): ")
-if user_string == "ex":
+print("Welcome!")                                                   # Print welcome message
+print("")
+print("(type \"ex\" for example sentence)")                         # Give the user an example message
+user_string = input("Please enter a sentence: ")                    # Ask user for a sentence
+if user_string == "ex":                                             # If user select example sentence
     conv_string = "    This is an EXAMPLE sentence.    "
-else:
+else:                                                               # If the user type their own sentence
     conv_string = user_string
 print("\n")
-print("Your sentence is \"" + conv_string + "\"")
+print("Your sentence is \"" + conv_string + "\"")                   # Print user's message
 print("")
-print("Options:")
+print("Options:")                                                   # View menu to user
 print("****************************************")
 print("Uppercase                          :   1")
 print("Lowercase                          :   2")
@@ -21,15 +23,15 @@ print("Titlecase                          :   3")
 print("Remove front and back whitespaces  :   4")
 print("Exit program                       :   e")
 print("")
-user_menu = input("What do you want to do? ")
+user_menu = input("What do you want to do? ")                       # Ask user what they want to do
 print("")
-if user_menu == "1":
+if user_menu == "1":                                                # "1" selected, print sentence in uppercase
     print(conv_string.upper())
-elif user_menu == "2":
+elif user_menu == "2":                                              # "2" selected, print sentence in lowercase
     print(conv_string.lower())
-elif user_menu == "3":
+elif user_menu == "3":                                              # "3" selected, print sentence in titlecase
     print(conv_string.title())
-elif user_menu == "4":
+elif user_menu == "4":                                              # "4" selected, print sentence without whitespaces
     print(conv_string.strip())
 else:
-    exit("Program exited")
+    exit("Program exited")                                          # "e" selected, exit program
