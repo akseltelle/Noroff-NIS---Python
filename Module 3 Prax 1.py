@@ -1,3 +1,9 @@
+# School        : Noroff - Network and IT-Security
+# Author        : Aksel Telle
+# Email         : akseltelle98@gmail.com
+# Github        : https://github.com/akseltelle
+# This project  : https://github.com/akseltelle/Noroff-NIS---Python
+# Website       : https://fawdaw.com/
 print("Welcome!")
 user_string = input("Please enter a sentence (type \"ex\" for example sentence): ")
 if user_string == "ex":
