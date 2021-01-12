@@ -89,7 +89,7 @@ my_file.write(write_me)
 
 # Write a list of text 4 times
 for i in range(0,4):
-    my_file.write("Another line {}\n")
+    my_file.write("Another line {}\n".format(i + 1))
 
 # Open file gag.txt
 my_file = open("gag.txt", "r")

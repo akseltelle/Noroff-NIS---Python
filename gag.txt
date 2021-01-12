@@ -2,7 +2,7 @@ Woah! This is a large text file where i can write as much as i want!
 How does spacing work?
 Wonder, i must.
  Yeah Boi
-Another line {}
-Another line {}
-Another line {}
-Another line {}
+Another line 1
+Another line 2
+Another line 3
+Another line 4
