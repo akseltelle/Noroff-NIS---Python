@@ -7,6 +7,7 @@ for runs in range(0, 3):
 
     if os.path.isfile("mypickle.dat"):
         print("Loading pickle")
+        the_saved_pickle = open("mypickle.dat", "rb")
         data = pickle.load(the_saved_pickle)
         the_saved_pickle.close()
     else:
