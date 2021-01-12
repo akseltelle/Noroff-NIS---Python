@@ -22,10 +22,10 @@ print("")
 write_me = "This is a test\n"
 my_file.write(write_me)
 
-# # Method 2
-# my_file.write("Hello there!\n")
-# my_file.write("Hello there!\n")
-# my_file.write("Hello there!\n")
+# Method 2
+my_file.write("Hello there!\n")
+my_file.write("Hello there!\n")
+my_file.write("Hello there!\n")
 
 print("Closing thefile.txt")
 my_file.close()
