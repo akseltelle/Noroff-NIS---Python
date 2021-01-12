@@ -192,3 +192,17 @@ my_file.close()
 my_file_1 = open("thetextfile.txt", "r")
 
 print(my_file_1.read())
+
+
+# Create temp file
+temp_file = open("temp.txt", "x")
+temp_file.close()
+
+
+# Remove temp file
+import os
+if os.path.isfile("temp.txt"):
+    print("File found - removing it.")
+    os.remove("temp.txt")
+else:
+    print("File not found - exiting.")
