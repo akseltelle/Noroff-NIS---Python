@@ -1,8 +1,7 @@
-# Pickle
 import pickle, os
 
 for runs in range(0, 3):
-    print("Loop {}".format(runs +1))
+    print("Loop {}".format(runs + 1))
     data = [0, 1, 2, 3]
 
     if os.path.isfile("mypickle.dat"):
@@ -26,4 +25,4 @@ for runs in range(0, 3):
     the_new_pickle = open("mypickle.dat", "wb")
     pickle.dump(data, the_new_pickle)
     the_new_pickle.close()
-    print("_" * 30)
+    print("-" * 30)
