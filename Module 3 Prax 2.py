@@ -43,10 +43,23 @@ print()
 # my_file.write("John Doe,First Customer,1000.00\n")
 # my_file.write("Jane Doe,Second Customer,2500.00\n")
 
-my_file = open("thefile.csv", "r")
-file_contents = my_file.readlines()
-print(file_contents)
+
+
+# my_file = open("thefile.csv", "r")
+# file_contents = my_file.readlines()
+# print(file_contents)
+# print()
+# for line in file_contents:
+#     print(line,end="")
+# my_file.close()
+
+my_file = open("thetextfile.txt", "r")
+print(my_file.read())
+print("Position {}".format(my_file.tell()))
+print("Resetting position to 50")
+my_file.seek(50)
+print("Position {}".format(my_file.tell()))
 print()
-for line in file_contents:
-    print(line,end="")
+for line in my_file:
+    print(line, end="")
 my_file.close()
