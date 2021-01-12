@@ -5,9 +5,7 @@
 # This project  : https://github.com/akseltelle/Noroff-NIS---Python
 # Website       : https://fawdaw.com/
 
-import pickle
 import os
-import requests
 
 print("************************************")
 print("*      Welcome to File Editor      *")
