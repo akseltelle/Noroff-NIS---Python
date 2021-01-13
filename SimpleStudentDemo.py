@@ -1,9 +1,14 @@
 from SimpleStudent import *
 
-first_student = SimpleStudent
-SimpleStudent.count += 1
 
-second_student = SimpleStudent
-SimpleStudent.count += 1
+first_student = student
+student.count += 1
 
-print("Number of students:  {}".format(SimpleStudent.count))
+second_student = student
+student.count += 1
+
+third_student = student
+student.count += 1
+
+print("Number of students:  {}".format(student.count))
+
