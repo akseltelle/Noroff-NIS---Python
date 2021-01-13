@@ -1,3 +1,10 @@
+# School        : Noroff - Network and IT-Security
+# Author        : Aksel Telle
+# Email         : akseltelle98@gmail.com
+# Github        : https://github.com/akseltelle
+# This project  : https://github.com/akseltelle/Noroff-NIS---Python
+# Website       : https://fawdaw.com/
+
 # repeat_me = "This string will repeat | "
 # new_string = repeat_me * 3
 # print(new_string)
