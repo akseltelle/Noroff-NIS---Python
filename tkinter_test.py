@@ -18,6 +18,11 @@ class Application(tk.Frame):
         self.hi_there["command"] = self.hello_friend
         self.hi_there.pack(side="top")
 
+        self.hi_there = tk.Button(self)
+        self.hi_there["text"] = "whoami?\n(click me)"
+        self.hi_there["command"] = self.whoami
+        self.hi_there.pack(side="top")
+
         self.quit = tk.Button(self, text="QUIT", fg="red",
                               command=self.master.destroy)
         self.quit.pack(side="bottom")
@@ -26,6 +31,8 @@ class Application(tk.Frame):
         print("hi there, everyone!")
     def hello_friend(self):
         print("hi there, friend!")
+    def whoami(self):
+        print("You are ROOT!")
 
 root = tk.Tk()
 app = Application(master=root)
