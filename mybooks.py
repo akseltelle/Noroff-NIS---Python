@@ -6,6 +6,9 @@ class mybooks:
     def __del__(self):
         print("{} removed from stock. ID: {}".format(self.name, id(self)))
 
+    def __int__(self, name):
+        self.name = name
+
 
 def test_scope():
     book1 = mybooks("Jack and the beanstalk")
